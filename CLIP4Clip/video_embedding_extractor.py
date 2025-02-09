@@ -81,7 +81,7 @@ def extract_video_embedding(video_chunks):
 
     return np.array(video_embeddings)
 
-video_path = "your_video.mp4"
+video_path = "<VIDEO_PATH>"
 video_chunks, chunk_files = extract_video_chunks(video_path, chunk_size=150, output_dir="your_video_chunks")
 video_embeddings = extract_video_embedding(video_chunks)
 

@@ -5,7 +5,7 @@ from PIL import Image
 from transformers import AutoModel, AutoTokenizer, CLIPImageProcessor, AutoConfig
 from llm2vec import LLM2Vec
 
-image_folder_path = './ziegler'
+image_folder_path = '<IMAGE_FOLDER>'
 model_name_or_path = "microsoft/LLM2CLIP-Openai-L-14-336"
 llm_model_name = 'microsoft/LLM2CLIP-Llama-3-8B-Instruct-CC-Finetuned'
 

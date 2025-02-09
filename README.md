@@ -19,7 +19,7 @@ This repository contains proof-of-concept (POC) implementations for:
 ## ⚡ Quick Start  
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/your-username/ClipPOC.git
+   git clone https://github.com/arkrajkundu/ClipPOC.git
    cd ClipPOC
    ```
 
